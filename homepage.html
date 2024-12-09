@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris Olympics 2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        .content-box {
+            border: 2px solid #004b87; /* Olympic Blue */
+            padding: 20px;
+            background-color: #ffcd00; /* Olympic Gold */
+            margin: 50px auto;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: marquee 10s linear infinite;
+        }
+
+        header {
+            font-size: 2em;
+            color: white;
+            padding-bottom: 10px;
+        }
+
+        h1 {
+            color: #004b87; /* Olympic Blue */
+            font-size: 3em;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(-100%); /* Start off-screen on the left */
+            }
+            100% {
+                transform: translateX(100%); /* End off-screen on the right */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <header>
+            Paris Olympics 2024
+        </header>
+        <h1>Welcome to the Paris Olympics 2024!</h1>
+    </div>
+</body>
+</html>
